@@ -1,12 +1,88 @@
 
 
 body{
-    background: rgba(66, 23, 23, 0.72);
+    background-image: url("src/photo.png");
     width: 1920px;
     height: 1080px;
     flex-shrink: 0;
 }
-.rectangle{
+.Rectangle_background{
+    width: 1644px;
+    height: 814px;
+    flex-shrink: 0;/* как элементы будут сжиматься относительно друг друга при уменьшении контейнера*/
+    border-radius: 35px;
+    opacity: 0.5; /* уровень прозрачности*/
+    background: rgba(178, 176, 176, 0.76);
+    /*отступы от краев*/
+    left: 138px;
+    top: 146px;
+    position: absolute;
+}
+.home{
+    color: rgba(178, 176, 176, 0.98);
+    font-family: 'Domine', serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /*отступы от краев*/
+    left: 492px;
+    top: 54px;
+    position: absolute;
+    text-decoration: none;
+}
+.about_me{
+    color: rgba(178, 176, 176, 0.98);
+    font-family: 'Domine', serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /*отступы от краев*/
+    left: 631px;
+    top: 54px;
+    position: absolute;
+    text-decoration: none;
+}
+.education{
+    color: rgba(178, 176, 176, 0.98);
+    font-family: 'Domine', serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /*отступы от краев*/
+    left: 845px;
+    top: 54px;
+    position: absolute;
+    text-decoration: none;
+}
+.skills{
+    color: rgba(178, 176, 176, 0.98);
+    font-family: 'Domine', serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /*отступы от краев*/
+    left: 1071px;
+    top: 54px;
+    position: absolute;
+    text-decoration: none;
+}
+.contacts{
+    color: rgba(178, 176, 176, 0.98);
+    font-family: Domine, serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 1213px;
+    top: 54px;
+    position: absolute;
+    text-decoration: none;
+}
+.rectangle1{
     width: 532px;
     height: 846px;
     flex-shrink: 0;
@@ -15,6 +91,7 @@ body{
     top: 117px;
     position: absolute;
 }
+
 .my_photo{
     width: 532px;
     height: 875px;
@@ -42,7 +119,7 @@ body{
 }
 .line_right{
     width: 2px;
-    height: 999.002px;
+    height: 999px;
     background: #000;
     position: absolute;
     left: 767px;
