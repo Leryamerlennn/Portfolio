@@ -7,6 +7,10 @@
 }
 .name, .surname{
     color: #1E1E1E;
+
+}
+.frontender, .designer, .skater, .dancer, .music{
+    color: #1E1E1E;
 }
 .Rectangle_background{
     width: 1644px;
@@ -48,7 +52,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    opacity: 0.95;
+
     position: relative;
     left: 175px;
     top: 200px;
@@ -62,21 +66,23 @@
     background: #000;
     position: relative;
     left: 997px;
-    top: 107px;
+    top: -170px;
 }
 .text_occupation {
-    left: 1160px;
-    top: 339px;
-    position: absolute;
+    left: 1100px;
+    top: -690px;
+    position: relative;
 }
 .text_occupation ul li {
-    margin-left: 32px;
-    color: #1E1E1E;
-    /* Domin */
+    margin-top: 32px;
+    list-style: disc;
+
+}
+.frontender, .designer, .skater, .dancer, .music{
     font-family: Domine, serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    opacity: 0.9;
+    color: revert;
 }
