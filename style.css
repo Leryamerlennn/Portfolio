@@ -1,5 +1,4 @@
 
-
 .main_photo{
     width: 1920px;
     height: 1080px;
@@ -16,6 +15,21 @@
     top: 146px;
     position: absolute;
 }
+
+.navigation{
+    position: absolute;
+    top: 54px;
+    left: 492px;
+}
+
+.navigation ul{
+
+}
+
+.navigation ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
 .home{
     color: rgba(178, 176, 176, 0.98);
     font-family: 'Domine', serif;
@@ -23,10 +37,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    /*отступы от краев*/
-    left: 492px;
-    top: 54px;
-    position: absolute;
     text-decoration: none;
 }
 .about_me{
@@ -36,10 +46,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    /*отступы от краев*/
-    left: 631px;
-    top: 54px;
-    position: absolute;
     text-decoration: none;
 }
 .education{
@@ -49,10 +55,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    /*отступы от краев*/
-    left: 845px;
-    top: 54px;
-    position: absolute;
     text-decoration: none;
 }
 .skills{
@@ -62,10 +64,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    /*отступы от краев*/
-    left: 1071px;
-    top: 54px;
-    position: absolute;
     text-decoration: none;
 }
 .contacts{
@@ -75,9 +73,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    left: 1213px;
-    top: 54px;
-    position: absolute;
     text-decoration: none;
 }
 .rectangle1{
