@@ -84,3 +84,34 @@
     line-height: normal;
     opacity: 0.9;
 }
+
+.container_second_page{
+    width: 1920px;
+    height: 1080px;
+}
+.Rectangle_background_2{
+    width: 1644px;
+    height: 814px;
+    flex-shrink: 0;/* как элементы будут сжиматься относительно друг друга при уменьшении контейнера*/
+    border-radius: 35px;
+    opacity: 0.5; /* уровень прозрачности*/
+    background: rgba(178, 176, 176, 0.76);
+    /*отступы от краев*/
+    left: 138px;
+    top: 146px;
+    position: relative;
+
+}
+
+.head{
+    left: 335px;
+    top: 256px;
+    color: #1E1E1E;
+    font-family: Domine,serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.95;
+    position: relative;
+}
