@@ -22,53 +22,14 @@
     left: 492px;
 }
 
-.navigation ul{
-
-}
-
 .navigation ul li{
     display: inline-block;
     margin-right: 30px;
+
 }
-.home{
+.home, .contacts, .education, .about_me, .skills{
     color: rgba(178, 176, 176, 0.98);
     font-family: 'Domine', serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-decoration: none;
-}
-.about_me{
-    color: rgba(178, 176, 176, 0.98);
-    font-family: 'Domine', serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-decoration: none;
-}
-.education{
-    color: rgba(178, 176, 176, 0.98);
-    font-family: 'Domine', serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-decoration: none;
-}
-.skills{
-    color: rgba(178, 176, 176, 0.98);
-    font-family: 'Domine', serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-decoration: none;
-}
-.contacts{
-    color: rgba(178, 176, 176, 0.98);
-    font-family: Domine, serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
