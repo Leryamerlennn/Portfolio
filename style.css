@@ -1,10 +1,9 @@
 
 
-body{
-    background-image: url("src/photo.png");
+.main_photo{
     width: 1920px;
     height: 1080px;
-    flex-shrink: 0;
+
 }
 .Rectangle_background{
     width: 1644px;
@@ -18,69 +17,47 @@ body{
     top: 146px;
     position: absolute;
 }
-.home{
-    color: rgba(178, 176, 176, 0.98);
-    font-family: 'Domine', serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    /*отступы от краев*/
+.navigation{
     left: 492px;
     top: 54px;
     position: absolute;
-    text-decoration: none;
 }
-.about_me{
+.navigation ul li{
+    display: inline-block;
+    margin-right: 30px; /*отступ справа для каждого эелемента*/
+}
+.home, .about_me, .education, .skills, .contacts{
     color: rgba(178, 176, 176, 0.98);
     font-family: 'Domine', serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    /*отступы от краев*/
-    left: 631px;
-    top: 54px;
-    position: absolute;
     text-decoration: none;
 }
-.education{
-    color: rgba(178, 176, 176, 0.98);
-    font-family: 'Domine', serif;
-    font-size: 40px;
+.text_name span{
+    color: #1E1E1E;
+    font-family: Domine,serif;
+    font-size: 100px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    /*отступы от краев*/
-    left: 845px;
-    top: 54px;
-    position: absolute;
-    text-decoration: none;
+    opacity: 0.95;
+    position: relative;
 }
-.skills{
-    color: rgba(178, 176, 176, 0.98);
-    font-family: 'Domine', serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    /*отступы от краев*/
-    left: 1071px;
-    top: 54px;
-    position: absolute;
-    text-decoration: none;
+.name{
+    width: 614px;
+    height: 163px;
+    left: 175px;
+    top: 248px;
+
 }
-.contacts{
-    color: rgba(178, 176, 176, 0.98);
-    font-family: Domine, serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    left: 1213px;
-    top: 54px;
-    position: absolute;
-    text-decoration: none;
+.surname{
+    width: 679px;
+    height: 118px;
+    top: 388px;
+    left: 175px;
+
 }
 .rectangle1{
     width: 532px;
@@ -101,64 +78,30 @@ body{
     left: 209px;
     top: 148px;
 }
-.line_top{
-    width: 719px;
-    height: 2px;
-    background: #000;
-    position: absolute;
-    left: 110px;
-    top: 98px;
-}
-.line_left{
+.line{
     width: 2px;
-    height: 1000px;
+    height: 575px;
     background: #000;
     position: absolute;
-    left: 148px;
-    top: 58px;
+    left: 1135px;
+    top: 253px;
 }
-.line_right{
-    width: 2px;
-    height: 999px;
-    background: #000;
-    position: absolute;
-    left: 767px;
-    top: 81px;
+.text_occupation {
+    left: 1160px;
+    top: 339px;
+    position: relative ;
+
 }
-.line_under_top{
-    width: 679px;
-    height: 2px;
-    background: #000;
-    position: absolute;
-    left: 120px;
-    top: 1038px;
-}
-.name{
-    width: 457px;
-    height: 148px;
-    font-family: 'Lora', serif;
-    flex-shrink: 0;
-    font-size: 128px;
-    font-weight: 400;
-    line-height: normal;
-    left: 937px;
-    top: 243px;
-    -webkit-text-stroke: 2px black;
-    -webkit-text-fill-color:transparent;
-    position: absolute;
-}
-.surname{
-    width: 457px;
-    height: 148px;
-    font-family: 'Lora', serif;
-    font-size: 128px;
+.text_occupation ul li {
+    margin-top: 32px;
+    color: #1E1E1E;
+    /* Domin */
+    font-family: Domine, serif;
+    font-size: 48px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    left: 937px;
-    top: 416px;
-    -webkit-text-stroke: 2px black;
-    -webkit-text-fill-color:transparent;
-    position: absolute;
-
+    opacity: 0.9;
+    text-decoration: dotted;
+    list-style-type: disc;
 }
