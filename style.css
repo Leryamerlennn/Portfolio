@@ -5,6 +5,9 @@
     height: 1080px;
 
 }
+.name, .surname{
+    color: #1E1E1E;
+}
 .Rectangle_background{
     width: 1644px;
     height: 814px;
@@ -35,8 +38,11 @@
     line-height: normal;
     text-decoration: none;
 }
+
 .text_name span{
-    color: #1E1E1E;
+    display: flex;
+    flex-flow: column;
+    color: revert;
     font-family: Domine,serif;
     font-size: 100px;
     font-style: normal;
@@ -44,56 +50,27 @@
     line-height: normal;
     opacity: 0.95;
     position: relative;
-}
-.name{
-    width: 614px;
-    height: 163px;
     left: 175px;
-    top: 248px;
-
-}
-.surname{
-    width: 679px;
-    height: 118px;
-    top: 388px;
-    left: 175px;
-
-}
-.rectangle1{
-    width: 532px;
-    height: 846px;
-    flex-shrink: 0;
-    background: rgba(255, 255, 255, 0.47);
-    left: 169px;
-    top: 117px;
-    position: absolute;
+    top: 200px;
+    margin-top: 25px;
 }
 
-.my_photo{
-    width: 532px;
-    height: 875px;
-    flex-shrink: 0;
-    position: absolute;
-    mix-blend-mode: luminosity;
-    left: 209px;
-    top: 148px;
-}
+
 .line{
     width: 2px;
     height: 575px;
     background: #000;
-    position: absolute;
-    left: 1135px;
-    top: 253px;
+    position: relative;
+    left: 997px;
+    top: 107px;
 }
 .text_occupation {
     left: 1160px;
     top: 339px;
-    position: relative ;
-
+    position: absolute;
 }
 .text_occupation ul li {
-    margin-top: 32px;
+    margin-left: 32px;
     color: #1E1E1E;
     /* Domin */
     font-family: Domine, serif;
@@ -102,6 +79,4 @@
     font-weight: 400;
     line-height: normal;
     opacity: 0.9;
-    text-decoration: dotted;
-    list-style-type: disc;
 }
