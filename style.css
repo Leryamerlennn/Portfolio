@@ -280,6 +280,7 @@
 .tooltip-trigger_music:hover ~ .tooltip-text_music {
     visibility: visible;
     opacity: 1;
+
 }
 .tooltip-text_creative {
     top: -40px;
