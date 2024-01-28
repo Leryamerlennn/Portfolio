@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
@@ -11,62 +14,100 @@
     <title>Portfolio</title>
 </head>
 <body>
-<!-- Панель навигации всегда отображается тегом <nav>-->
-<nav>
-    <div class="navigation">
-        <ul>
-            <li><a class="home" href="#home">Home</a></li>
-            <li><a href="#about" class="about_me">About me</a></li>
-            <li><a href="#" class="education">Education</a></li>
-            <li><a href="#" class="skills">Skills</a></li>
-            <li><a href="#" class="contacts">Contacts</a></li>
-        </ul>
-    </div>
-</nav>
+
 <!-- Использование тега <main> для того чтоб cказать где начинается код программы-->
 
-<main>
-    <img class="main_photo"  src="src/photo.png" alt="">
-    <div class="container_first_page" id="home">
-
-        <!--Field for text-->
-
-        <div class="Rectangle_background"></div>
-        <div class="text_name">
-            <span >Valeria</span>
-            <span >Neganova</span>
-        </div>
-
-        <div class="line1"></div>
-
-        <div class="text_occupation">
+<div class="background">
+    <!-- Панель навигации всегда отображается тегом <nav>-->
+    <nav>
+        <div class="navigation">
             <ul>
-                <li class="frontender">Frontender</li>
-                <li class="designer">Web designer</li>
-                <li class="skater">Figure skater</li>
-                <li class="dancer">Hip hop dancer</li>
-                <li class="music">Musician</li>
+                <li><a class="home" href="#home">Home</a></li>
+                <li><a href="#about" class="about_me">About me</a></li>
+                <li><a href="#education" class="education">Education</a></li>
+                <li><a href="#" class="skills">Skills</a></li>
+                <li><a href="#" class="contacts">Contacts</a></li>
             </ul>
         </div>
-    </div>
+    </nav>
+</div>
 
-    <!--2 page-->
+<main>
 
-    <div class="container_second_page" id="about">
-        <div class="Rectangle_background_2"></div>
-        <h1 class="head">Who am I?</h1>
-        <div class="line2"></div>
-        <div class="spheres">
-            <ul class="text_animation">
-                <li><span class="tooltip-trigger_about_me">About me</span><span class="tooltip-text_about_me">Neganova Valeria<br>18 years - 21.02.2005<br>Russia, Innopolis</span></li>
-                <li><span class="tooltip-trigger_work">Work sphere</span><span class="tooltip-text_work">Courier of legal proceedings - 6 months<br>Waiter - 2 years<br>A teacher in the field of robotics - 1 month<br>A beginner frontender with 2 years of programming experience </span></li>
-                <li><span class="tooltip-trigger_sport">Sport sphere</span><span class="tooltip-text_sport">CMS in Figure skating<br>The 3rd category of motocross<br>Swimmer</span></li>
-                <li><span class="tooltip-trigger_music">Musical sphere</span><span class="tooltip-text_music">Bass guitar player of a musical group<br>Acoustic guitar player</span></li>
-                <li><span class="tooltip-trigger_creative">Creative sphere</span><span class="tooltip-text_creative">Design and sale of photo albums in the style of scrapbooking, gift boxes</span></li>
-            </ul>
+    <div class="container">
+        <div class="container_first_page" id="home" >
+
+            <!--1 page-->
+
+            <div class="Rectangle_background"></div>
+            <div class="text_name">
+                <span >Valeria</span>
+                <span >Neganova</span>
+            </div>
+
+            <div class="line1"></div>
+
+            <div class="text_occupation">
+                <ul>
+                    <li class="frontender">Frontender</li>
+                    <li class="designer">Web designer</li>
+                    <li class="skater">Figure skater</li>
+                    <li class="dancer">Hip hop dancer</li>
+                    <li class="music">Musician</li>
+                </ul>
+            </div>
+        </div>
+
+        <!--2 page-->
+
+        <div class="container_second_page"  id="about">
+            <div class="Rectangle_background_2">
+
+            </div>
+
+            <h1 class="head">Who am I?</h1>
+            <div class="line2"></div>
+            <div class="spheres">
+                <ul class="text_animation">
+                    <li><span class="tooltip-trigger_about_me">About me</span><span class="tooltip-text_about_me">Neganova Valeria<br>18 years - 21.02.2005<br>Russia, Innopolis</span></li>
+                    <li><span class="tooltip-trigger_work">Work sphere</span><span class="tooltip-text_work">Courier of legal proceedings - 6 months<br>Waiter - 2 years<br>A teacher in the field of robotics - 1 month<br>A beginner frontender with 2 years of programming experience </span></li>
+                    <li><span class="tooltip-trigger_sport">Sport sphere</span><span class="tooltip-text_sport">CMS in Figure skating<br>The 3rd category of motocross<br>Swimmer</span></li>
+                    <li><span class="tooltip-trigger_music">Musical sphere</span><span class="tooltip-text_music">Bass guitar player of a musical group<br>Acoustic guitar player</span></li>
+                    <li><span class="tooltip-trigger_creative">Creative sphere</span><span class="tooltip-text_creative">Design and sale of photo albums in the style of scrapbooking, gift boxes</span></li>
+                </ul>
+
+            </div>
+        </div>
+
+        <!--3 page-->
+        <div class="container_third_page"  id="education">
+            <div class="Rectangle_background_3"></div>
+            <div class="text_education">
+                <h1 class="head_education">Education</h1>
+                <!--School-->
+                <div class="school_inform">
+                    <h6 class="text_school">School</h6>
+                    <span class="years_school">2012-2021</span>
+                    <span class="school_info">I graduated from gymnasium 35 in Vladimir (grades 1-9)</span>
+                    <svg class="icons_1" xmlns="http://www.w3.org/2000/svg" width="64" height="58" viewBox="0 0 64 58" fill="none">
+                        <g opacity="0.9">
+                            <path d="M52 54.375H48V48.9375C47.9968 46.5349 46.9422 44.2314 45.0676 42.5325C43.1929 40.8336 40.6512 39.8779 38 39.875H26C23.3488 39.8779 20.8071 40.8336 18.9324 42.5325C17.0578 44.2314 16.0032 46.5349 16 48.9375V54.375H12V48.9375C12.0042 45.5737 13.4806 42.3489 16.1052 39.9703C18.7298 37.5918 22.2883 36.2538 26 36.25H38C41.7117 36.2538 45.2702 37.5918 47.8948 39.9703C50.5194 42.3489 51.9958 45.5737 52 48.9375V54.375ZM10 10.875C9.46957 10.875 8.96086 11.066 8.58579 11.4059C8.21071 11.7458 8 12.2068 8 12.6875V29H12V12.6875C12 12.2068 11.7893 11.7458 11.4142 11.4059C11.0391 11.066 10.5304 10.875 10 10.875Z" fill="black" fill-opacity="0.9"/>
+                            <path d="M8 3.625V7.25H18V19.9375C18 23.3024 19.475 26.5295 22.1005 28.9089C24.726 31.2883 28.287 32.625 32 32.625C35.713 32.625 39.274 31.2883 41.8995 28.9089C44.525 26.5295 46 23.3024 46 19.9375V7.25H56V3.625H8ZM22 7.25H42V12.6875H22V7.25ZM32 29C29.3478 29 26.8043 28.0452 24.9289 26.3457C23.0536 24.6461 22 22.341 22 19.9375V16.3125H42V19.9375C42 22.341 40.9464 24.6461 39.0711 26.3457C37.1957 28.0452 34.6522 29 32 29Z" fill="black" fill-opacity="0.9"/>
+                        </g>
+                    </svg>
+                    <div class="line4"></div>
+                </div>
+                <!--Economic Lyceum-->
+                <div class="Lyceum_inform">
+
+                </div>
+
+            </div>
 
         </div>
+
     </div>
+
 </main>
 
 
