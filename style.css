@@ -10,7 +10,7 @@
 }
 /*parallax for 2 and 3 pages (можно добавить .container,----)*/
 
-.container_second_page, .container_third_page{
+.container_second_page, .container_third_page, .container_four_page, .container_five_page{
     background-image: url("src/photo_background_last.jpeg");
     background-attachment: fixed;
     background-size: cover;
@@ -351,13 +351,14 @@
     line-height: normal;
     opacity: 0.95;
 }
-/*блок со школой*/
+
 .head_education{
     left: 303px;
     top: -649px;
     position: relative;
     font-size: 64px;
 }
+/*блок со школой*/
 .text_school{
     font-size: 24px;
     position: relative;
@@ -397,3 +398,242 @@
 }
 
 /*блок с лицеем*/
+.text_lyceum{
+    position: relative;
+    font-size: 24px;
+    left: 397px;
+    top: -580px;
+
+}
+.icons_2{
+    top: -605px;
+    left: -407px;
+    position: relative;
+    width: 64px;
+    height: 58px;
+    flex-shrink: 0;
+    opacity: 0.9;
+}
+.line5{
+    width: 2px;
+    height: 90px;
+    background: #000;
+    left: 375px;
+    top: -665px;
+    position: relative;
+}
+.years_lyceum{
+    font-size: 20px;
+    position: relative;
+    top: -643px;
+    left: 630px;
+}
+.lyceum_info{
+    font-size: 20px;
+    position: relative;
+    left: 293px;
+    top: -601px;
+}
+/*блок с Inno*/
+.text_Inno{
+    position: relative;
+    font-size: 24px;
+    left: 397px;
+    top: -610px;
+}
+.icons_3{
+    left: -180px;
+    top: -637px;
+    position: relative;
+    width: 64px;
+    height: 58px;
+    flex-shrink: 0;
+    opacity: 0.9;
+}
+.line6{
+    width: 2px;
+    height: 90px;
+    background: #000;
+    left: 375px;
+    top: -698px;
+    position: relative;
+}
+.years_Inno{
+    font-size: 20px;
+    position: relative;
+    top: -672px;
+    left: 650px;
+}
+.Inno_info{
+    font-size: 20px;
+    position: relative;
+    left: 233px;
+    top: -631px;
+}
+
+/*блок с Back*/
+.text_Self_learning{
+    position: relative;
+    font-size: 24px;
+    left: 1197px;
+    top: -1050px;
+}
+.Back{
+    position: relative;
+    font-size: 24px;
+    left: 1197px;
+    top: -1045px;
+}
+.icons_4{
+    left: 1090px;
+    font-size: 21em;
+    top: -1117px;
+    position: relative;
+    opacity: 0.9;
+}
+.line7{
+    width: 2px;
+    height: 100px;
+    background: #000;
+    left: 1175px;
+    top: -1400px;
+    position: relative;
+}
+.Back_info{
+    font-size: 20px;
+    position: relative;
+    left: 900px;
+    top: -1311px;
+}
+
+/*блок с Front*/
+.text_Self_learning_Front{
+    position: relative;
+    font-size: 24px;
+    left: 1197px;
+    top: -1330px;
+}
+
+.Front{
+    position: relative;
+    font-size: 24px;
+    left: 1197px;
+    top: -1321px;
+}
+.icons_5{
+    left: 1090px;
+    font-size: 21em;
+    top: -1398px;
+    position: relative;
+    opacity: 0.9;
+}
+.line8{
+    width: 2px;
+    height: 100px;
+    background: #000;
+    left: 1175px;
+    top: -1680px;
+    position: relative;
+}
+.Front_info{
+    font-size: 20px;
+    position: relative;
+    left: 900px;
+    top: -1589px;
+}
+.Front_info2{
+    font-size: 20px;
+    position: relative;
+    left: 900px;
+    top: -1589px;
+}
+
+/*4 page*/
+.Rectangle_background_4{
+    width: 1644px;
+    height: 814px;
+    flex-shrink: 0;/* как элементы будут сжиматься относительно друг друга при уменьшении контейнера*/
+    border-radius: 35px;
+    opacity: 0.5; /* уровень прозрачности*/
+    background: rgba(178, 176, 176, 0.76);
+    /*отступы от краев*/
+    left: 138px;
+    top: 70px;
+    position: relative;
+}
+.text_skills{
+    color: #1E1E1E;
+    font-family: Domine, serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.95;
+}
+.head_skills{
+    left: 373px;
+    top: -619px;
+    position: relative;
+    font-size: 64px;
+}
+.enumeration_skills{
+    left: 440px;
+    top: -560px;
+    position: relative;
+}
+
+
+.enumeration_skills ul li {
+    margin-top: 32px;
+    list-style: disc;
+
+}
+.art, .model, .tutor, .engl, .math{
+    font-size: 40px;
+}
+.line9{
+    width: 2px;
+    height: 400px;
+    background: #000;
+    left: 373px;
+    top: -940px;
+    position: relative;
+}
+
+/*5 page*/
+.Rectangle_background_5{
+    width: 1644px;
+    height: 814px;
+    flex-shrink: 0;/* как элементы будут сжиматься относительно друг друга при уменьшении контейнера*/
+    border-radius: 35px;
+    opacity: 0.5; /* уровень прозрачности*/
+    background: rgba(178, 176, 176, 0.76);
+    /*отступы от краев*/
+    left: 138px;
+    top: 70px;
+    position: relative;
+}
+
+.text_big{
+    position: relative;
+    top: -530px;
+    left: 480px;
+    color: #1E1E1E;
+    font-size: 96px;
+    font-family: Domine, serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.95;
+}
+.text_small{
+    position: relative;
+    top: -510px;
+    left: 680px;
+    color: #1E1E1E;
+    font-size: 64px;
+    font-family: Domine, serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.95;
+}
